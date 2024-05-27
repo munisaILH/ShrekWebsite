@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shrek-tify</title>
-    <link rel = "stylesheet" href = "./resources/css/index.css">
+    <style>
+        .banner {
+            background-color: #15f639;
+            color: #7c0d04;
+            margin-top: 75px;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #small-shrek {
+            height: 300px;
+            width: 300px;
+        }
+
+        #logo-shrek {
+            height: 300px;
+            width: 550px;
+        }
+
+        #shrek {
+            color: #7c0d04;
+            font-size: 100px;
+        }
+    </style>
 </head>
 <body>
-    <div class = "banner">
+    <div class="banner">
         <h1>Shrek's landing banner</h1>
-        <img id = "logo-shrek" src="https://www.pngplay.com/wp-content/uploads/14/Shrek-Logo-PNG-Photos.png" alt="shrek title">
-        <p> He's coming.</p>
-        <button> Love him or he will eat you</button>
+        <img id="logo-shrek" src="https://www.pngplay.com/wp-content/uploads/14/Shrek-Logo-PNG-Photos.png" alt="shrek title">
+        <p>He's coming.</p>
+        <button>Love him or he will eat you</button>
     </div>
 
     <div>
-        <span id = "shrek"> Shrek </span>
+        <span id="shrek">Shrek</span>
         <p><br><br></p> <!--spacing for the span and the pic-->
 
-        <img id = "small-shrek" src="https://th.bing.com/th/id/R.ecf2091c8f3b3f417b3f00f9728203f7?rik=mQNiOWALz464CA&pid=ImgRaw&r=0" alt="shrek image">
+        <img id="small-shrek" src="https://th.bing.com/th/id/R.ecf2091c8f3b3f417b3f00f9728203f7?rik=mQNiOWALz464CA&pid=ImgRaw&r=0" alt="shrek image">
         <p>Look how cool he is</p>
         <form action="/action_page.php">
             <label for="fname">First name:</label><br>
@@ -26,7 +49,7 @@
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value=""><br><br>
             <input type="submit" value="Submit">
-          </form>
+        </form>
         <p>Now he can find you.</p>
     </div>
 </body>
